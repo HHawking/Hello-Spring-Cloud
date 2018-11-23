@@ -12,6 +12,6 @@ public class AdminController {
 
     @GetMapping(value = "test")
     public String test(String msg){
-        return "msg:"+msg+"post:"+port;
+        return "msg:"+msg+"_____post:"+port;
     }
 }
